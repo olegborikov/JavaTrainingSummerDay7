@@ -1,4 +1,4 @@
-package by.borikov;
+package by.borikov.day7.main;
 
 import java.util.InputMismatchException;
 import java.util.Locale;
