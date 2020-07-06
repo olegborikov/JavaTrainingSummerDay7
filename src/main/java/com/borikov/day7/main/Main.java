@@ -17,11 +17,11 @@ public class Main {
                 switch (choice) {
                     case 1:
                         country = "US";
-                        language = "EN";
+                        language = "en";
                         break;
                     case 2:
                         country = "BY";
-                        language = "BE";
+                        language = "be";
                         break;
                 }
                 Locale current = new Locale(language, country);
@@ -30,6 +30,7 @@ public class Main {
                 System.out.println(s1);
                 String s2 = rb.getString("str2");
                 System.out.println(s2);
+                System.out.println();
             }
         }catch (InputMismatchException e) {
             System.out.println("incorrect input");
